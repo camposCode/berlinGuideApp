@@ -1,0 +1,20 @@
+.footer{
+    margin-top: 15px;
+    height: 75px;
+    bottom: -75px;
+   
+}
+.footer-text{
+    color: #fff;
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+@media(max-width: 570px) {
+    .footer-text{
+        left: 35%;
+    }
+}

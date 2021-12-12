@@ -1,0 +1,14 @@
+<h1 class="animated fadeIn">{{ monument.name }}</h1>
+<hr>
+
+<div class="row animated fadeIn fast">
+    <div class="col-md-4">
+        <img [src]="monument.img" class="img-fluid"  [alt]="monument.name" >
+        <br><br>
+        <a [routerLink]="['/monuments']" class="btn btn-outline-primary btn-block">Back</a>
+    </div>
+
+    <div class="col-md-8">
+        <p>{{ monument.history }}</p>
+    </div>
+</div>

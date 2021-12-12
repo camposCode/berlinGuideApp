@@ -1,0 +1,25 @@
+<h1>What to See</h1>
+<hr />
+<div class="card-columns">
+  <div class="card animated fadeIn fast" *ngFor="let monument of monuments; let i = index">
+    <img
+      class="card-img-top"
+      [src]= "monument.img" 
+      alt="Card image cap"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ monument.name }}</h5>
+      <p class="card-text">
+        {{ monument.history }}
+      </p>
+      
+      <button 
+        type="button" 
+        class="btn btn-outline-primary btn-block"
+        (click) = "goToMonument(i)">More</button>
+
+      <!-- <a [routerLink]="['/monument', i]" class="btn btn-outline-primary btn-block">More</a> -->
+    </div>
+  </div>
+</div>
+
