@@ -28,7 +28,7 @@ export class MonumentsService {
       name: 'Siegessäule',
       history:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies leo integer malesuada nunc. Quis lectus nulla at volutpat. Consequat ac felis donec et odio pellentesque diam. Augue lacus viverra vitae congue. Cursus turpis massa tincidunt dui ut ornare lectus. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Viverra justo nec ultrices dui. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Massa tincidunt dui ut ornare lectus sit. Amet purus gravida quis blandit turpis. Molestie at elementum eu facilisis.',
-      img: 'assets/img/siegessaele.jpg',
+      img: 'assets/img/siegesaele.jpg',
     },
     {
       name: 'Dom',
